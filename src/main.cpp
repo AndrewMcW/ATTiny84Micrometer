@@ -1,6 +1,10 @@
-#include <Arduino.h>
+#ifdef PLATFORMIO
+  #include <Arduino.h>
+#endif
+
 // 6 digit display:
 #include <TM1637TinyDisplay6.h>
+
 // eeprom
 #include <eeprom.h>
 
